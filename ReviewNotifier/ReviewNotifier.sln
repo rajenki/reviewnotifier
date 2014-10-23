@@ -16,6 +16,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewNotifier.Windows", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewNotifier.WindowsPhone", "ReviewNotifier.WindowsPhone\ReviewNotifier.WindowsPhone.csproj", "{45C7B09E-27F3-4307-8077-AAD9DED1DCE2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Symbols", "Symbols", "{0C419483-C43F-48C1-9DCE-715666AA62BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReviewNotifier.Windows", "ReviewNotifier.Windows", "{BCB2E9A4-9287-4798-A8C2-621184F7FD79}"
+	ProjectSection(SolutionItems) = preProject
+		Symbols\ReviewNotifier.Windows\ReviewNotifier.WindowsStore.pdb = Symbols\ReviewNotifier.Windows\ReviewNotifier.WindowsStore.pdb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReviewNotifier.WindowsPhone", "ReviewNotifier.WindowsPhone", "{89D546B4-27A5-4A95-B84C-34AF3FC9235E}"
+	ProjectSection(SolutionItems) = preProject
+		Symbols\ReviewNotifier.WindowsPhone\ReviewNotifier.WindowsStore.pdb = Symbols\ReviewNotifier.WindowsPhone\ReviewNotifier.WindowsStore.pdb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReviewNotifier.WindowsPhoneSilverlight", "ReviewNotifier.WindowsPhoneSilverlight", "{64E5619A-4386-4992-8844-9259A7B31F7A}"
+	ProjectSection(SolutionItems) = preProject
+		Symbols\ReviewNotifier.WindowsPhoneSilverlight\ReviewNotifier.WindowsPhoneSilverlight.pdb = Symbols\ReviewNotifier.WindowsPhoneSilverlight\ReviewNotifier.WindowsPhoneSilverlight.pdb
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,5 +92,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCB2E9A4-9287-4798-A8C2-621184F7FD79} = {0C419483-C43F-48C1-9DCE-715666AA62BB}
+		{89D546B4-27A5-4A95-B84C-34AF3FC9235E} = {0C419483-C43F-48C1-9DCE-715666AA62BB}
+		{64E5619A-4386-4992-8844-9259A7B31F7A} = {0C419483-C43F-48C1-9DCE-715666AA62BB}
 	EndGlobalSection
 EndGlobal
