@@ -32,16 +32,5 @@ namespace ReviewNotifier.WindowsStore
             startupCounter++;
             await Storage.SaveAsync("StartupCounter", startupCounter);
         }
-
-
-        /// <summary>
-        /// Trigger the ReviewNotifier helper. A message will be displayed with the passed title and message text after 5 app launches.
-        /// </summary>
-        /// <param name="message">The message text of the message pop-up to be displayed to the user</param>
-        /// <param name="title">The title of the message pop-up to be displayed to the user</param>
-        public static Task TriggerAsync(string message, string title)
-        {
-            return TriggerAsync(message, title);
-        }
     }
 }

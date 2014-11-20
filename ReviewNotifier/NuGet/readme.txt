@@ -1,4 +1,4 @@
-ReviewNotifier 1.1.0 | Rajen Kishna
+ReviewNotifier 1.1.1 | Rajen Kishna
 ===============================================================================
 
 ReviewNotifier is a helper class for Windows Phone and Windows apps to easily

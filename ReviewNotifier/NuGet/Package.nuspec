@@ -2,15 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>ReviewNotifier</id>
-        <version>1.1.0</version>
+        <version>1.1.1</version>
         <authors>Rajen Kishna</authors>
         <owners>rajenki</owners>
         <iconUrl>http://blog.rajenki.com/wp-content/uploads/2013/08/rn.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>ReviewNotifier is a helper class for Windows Phone and Windows 8 apps to easily ask users to rate and review your app after a number of launches.</description>
-        <releaseNotes>Breaking change in namespaces to clean them up.
-Open-sourced on GitHub.
-Removed Windows Phone 7.1 and Windows 8.0 support, install 1.0.0 if needed.</releaseNotes>
+        <releaseNotes>Fixed an issue with a recursive function on Windows Phone Silverlight.</releaseNotes>
         <tags>rate review windowsphone phone wp7 wp8 winrt windows8</tags>
         <dependencies>
             <dependency id="StorageHelper" version="1.1.6" />
